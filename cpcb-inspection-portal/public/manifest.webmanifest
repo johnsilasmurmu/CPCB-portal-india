@@ -1,0 +1,14 @@
+{
+  "name": "CPCB Industry Inspection Portal – Textile",
+  "short_name": "CPCB Textile",
+  "description": "Offline-capable field inspection format for textile industries (CPCB, Water Quality Management-II, 2025-26).",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0f8a5f",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
