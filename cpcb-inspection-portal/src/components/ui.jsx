@@ -2,13 +2,7 @@ import React from 'react'
 
 export function Logo({ className = 'h-11 w-11' }) {
   return (
-    <svg viewBox="0 0 64 64" className={className} role="img" aria-label="CPCB emblem">
-      <circle cx="32" cy="32" r="31" fill="#0f8a5f" />
-      <circle cx="32" cy="32" r="25" fill="none" stroke="#ffffff" strokeWidth="2" />
-      <path d="M32 13c8 6 12 13 12 21 0 7-5 12-12 17-7-5-12-10-12-17 0-8 4-15 12-21z" fill="#ffffff" opacity="0.95" />
-      <path d="M32 19v27M32 30c-4-3-7-5-10-5M32 39c4-4 8-6 11-6" stroke="#0f8a5f" strokeWidth="2.5" strokeLinecap="round" fill="none" />
-      <path d="M9 47c7 4 13 6 23 6s16-2 23-6" stroke="#1d4ed8" strokeWidth="3" fill="none" strokeLinecap="round" />
-    </svg>
+    <img src="/cpcb_logo.jpg" className={className} alt="CPCB emblem" />
   )
 }
 
